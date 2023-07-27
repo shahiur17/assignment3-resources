@@ -44,24 +44,23 @@
                       <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h7" /></svg>
                     </label>
                     <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
-                      <li><a>Homepage</a></li>
-                      <li><a>Portfolio</a></li>
-                      <li><a>About</a></li>
+                      <li><a>Home</a></li>
+                      <li><a>About Us</a></li>
+                      <li><a>Shop</a></li>
+                      <li><a>All Fruits</a></li>
                     </ul>
                   </div>
                 </div>
                 <div class="navbar-center">
                   <img class="place-items-center" src="./images/logo.png" alt="" srcset="">
-                  <a class="btn btn-ghost normal-case text-2xl  ">Fruit Burst</a>
+                  <a class="btn btn-ghost normal-case text-xl font-bold md:text-xs  ">Fruit Burst</a>
                 </div>
                 <div class="navbar-end">
-                  <button class="btn btn-ghost btn-circle">
+                  <button class="btn btn-ghost btn-circle lg:hidden">
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" /></svg>
                   </button>
                   <button class="btn btn-ghost btn-circle">
-                    <div class="indicator">
-                      <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9" /></svg>
-                      <span class="badge badge-xs badge-primary indicator-item"></span>
+                  
                     </div>
                   </button>
                 </div>
@@ -143,14 +142,14 @@
     <main>
         <!--time section-->
         <section>
-            <div class="flex max-w-screen-[1440px] w-auto lg:flex-row">
+            <div class="flex max-w-screen-[1440px] w-auto  lg:flex-row">
                 <div class="px-20 py-12">
                     <h1>Deal of the day</h1>
                     <p>Contrary to popular belief, is not simply random text. It has roots in a piece of classical <br>
                          Latin literature from 45 BC, making it over 2000 years old.</p>
                 </div>
                 
-                    <div class="py-24 px-20 grid grid-flow-col text-right gap-5 text-center auto-cols-max">
+                    <div class="py-24 px-20 grid grid-flow-col text-right gap-5 text-center auto-cols-max md:gird-row-1 lg:gird-cols-1">
                         <div class="flex flex-col">
                           <span class="countdown font-mono text-5xl">
                             <span style="--value:15;"></span>
@@ -208,6 +207,7 @@
                         <figure><img class="w-36" src="./images//fruit7.png" alt="Shoes" /></figure>
                         <div class="card-body">
                           <p>12.90$ - 18.85$</p>
+                          <h5>Orange</h5>
                             <div class="rating justify-center">
                                 <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
                                 <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400"  />
@@ -216,7 +216,7 @@
                                 <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
                               </div>
                           <div class="text-center space-y-4 mt-4">
-                            <h4 class="text-xm font-semibold text-info">Regina Miles</h4>
+                            <h4 class="text-xm font-semibold text-info"></h4>
                             <button>Details</button>
                           </div>
                         </div>
@@ -226,6 +226,7 @@
                         <figure><img class="w-36" src="./images//fruit8.png" alt="Shoes" /></figure>
                         <div class="card-body">
                           <p>12.90$ - 18.85$</p>
+                          <h5>Red Dragon</h5>
                             <div class="rating justify-center">
                                 <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
                                 <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400"  />
@@ -244,6 +245,7 @@
                         <figure><img class="w-36" src="./images//fruit9.png" alt="Shoes" /></figure>
                         <div class="card-body">
                           <p>12.90$ - 18.85$</p>
+                          <h5>Banana</h5>
                             <div class="rating justify-center">
                                 <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
                                 <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400"  />
@@ -351,7 +353,7 @@
           </div>
           <!--cards-->
           <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-12">
-            <div class="card  bg-base-100 shadow-xl image-full">             
+            <div class="card  bg-base-100 shadow-xl ">             
               <div class="card-body">
                 <h2 class="card-title">Dedicated Team</h2>
                 <p>Professional employees are there for you to pick the most amazing and fresh fruits.</p>
@@ -375,13 +377,13 @@
               </div>
             </div>
             <!--card3-->
-            <div class="card image-full">             
+            <div class="card ">             
               <div class="card-body">
-                <h2 class="card-title">Dedicated Team</h2>
+                <h2 class="card-title">Integrated Supplier</h2>
                 <p>Professional employees are there for you to pick the most amazing and fresh fruits.</p>
-                <h2 class="card-title">Fresh is Best</h2>
+                <h2 class="card-title">Sustainable Practice</h2>
                 <p>Professional employees are there for you to pick the most amazing and fresh fruits.</p>
-                <h2 class="card-title">Gift Certificates</h2>
+                <h2 class="card-title">The Benefits Only</h2>
                 <p>Professional employees are there for you to pick the most amazing and fresh fruits.</p>
                 <div class="card-actions justify-end">               
                 </div>
